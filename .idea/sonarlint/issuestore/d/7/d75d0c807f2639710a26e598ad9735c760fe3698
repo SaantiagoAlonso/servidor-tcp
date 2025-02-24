@@ -1,0 +1,21 @@
+
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(¨ìñ–ıÿÿÿÿ8¨ƒ´Ó2J$e7455342-8db3-41bd-81ee-70c41d12e66f
+r	java:S106^"+Replace this use of System.out by a logger.(¤‰´Îşÿÿÿÿ8Áƒ´Ó2J$66d34938-5751-469a-9f54-14b334f5a393
+m	java:S106b"+Replace this use of System.out by a logger.(­§ù¥8Âƒ´Ó2J$d74f61b5-21a7-485e-b044-407d9d7b05f0
+~	java:S125e"<This block of commented-out lines of code should be removed.(ƒÛƒà8Âƒ´Ó2J$46406da9-2c5a-45b4-a325-d5b54b618510
+r	java:S106n"+Replace this use of System.out by a logger.(Ò÷Ş§şÿÿÿÿ8Ãƒ´Ó2J$110efce6-1922-4346-b816-5c0790858ff7
+”
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ğà¦Çúÿÿÿÿ8Éƒ´Ó2J$c9925c6d-963a-4dd0-b41e-89643338704d
+„	java:S125’"<This block of commented-out lines of code should be removed.(¸´¿ìÿÿÿÿÿ8­â‘µÓ2J$1cf918e8-ef9e-4f30-a8ab-b0634919c6dc
+„	java:S125œ"<This block of commented-out lines of code should be removed.(ºìíôûÿÿÿÿ8ïÏ·Ó2J$91e56c71-dc34-4e03-956c-ce1544108424
+~	java:S125Ÿ"<This block of commented-out lines of code should be removed.(Ø¥é&8ÅŒ’µÓ2J$164806d9-b6d5-4a0b-8508-1109373bce1f
+n	java:S106°"+Replace this use of System.out by a logger.(Öà¾Ê8Ëƒ´Ó2J$20667f53-8509-4f26-8420-62c1681f0b19
+s	java:S106³"+Replace this use of System.out by a logger.(§´Òùÿÿÿÿ8Ëƒ´Ó2J$5df99049-1a3d-4a5b-8d09-401ef01debd0
+v
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8°´Î·Ó2J$64f2dcc8-8810-4421-b3b7-d22506bf4de0
+y
+java:S1128"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8°´Î·Ó2J$7c3e66dc-b0e8-424e-85a4-111bec6c3816
+s
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8°´Î·Ó2J$375dd917-9487-45b1-818a-2e6ff750ddfb
+~
+java:S1144u"6Remove this unused private "procesarSolicitud" method.(ÙÌœ®ıÿÿÿÿ8Íƒ´Ó2J$2ed8bde9-c44c-4893-a0f2-23baca9ad11b

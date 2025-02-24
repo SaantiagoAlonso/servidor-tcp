@@ -1,0 +1,11 @@
+
+é
+java:S2095k"KUse try-with-resources or close this "EntityManager" in a "finally" clause.(Ï∂û–8àÁ…µ”2J$73a8c2fe-3c69-406b-bc39-db0309ded14d
+é
+java:S2095s"KUse try-with-resources or close this "EntityManager" in a "finally" clause.(Ï∂û–8òú”µ”2J$6c9909dd-31ba-4078-8b8e-a74cd26c2f5d
+~	java:S1250"<This block of commented-out lines of code should be removed.(‚⁄≥€8Ì··˙“2J$e5dfdaa6-96dc-4a9b-bacc-8ba8fd2533f2
+r	java:S106O"+Replace this use of System.out by a logger.(ß˘∂Î˛ˇˇˇˇ8Ó··˙“2J$e6f398af-d14c-4ca8-9845-325e03bb466d
+r	java:S106c"+Replace this use of System.out by a logger.(ß˘∂Î˛ˇˇˇˇ8··˙“2J$3edfccdd-5d94-4716-afa3-40c4c392467a
+É	java:S125{"<This block of commented-out lines of code should be removed.(áù®ˇ˛ˇˇˇˇ8á˝…µ”2J$b92dc10a-7f36-43ed-851e-11d09974af45
+Å
+java:S1128">Remove this unused import 'jakarta.transaction.Transactional'.(ﬂñ ≥8¢ú”µ”2J$be0bc8d3-c047-4c4f-9e8c-a3afaabdd9ec
