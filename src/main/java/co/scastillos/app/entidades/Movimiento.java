@@ -23,9 +23,13 @@ public class Movimiento {
 
     private Date fecha;
 
+    private Double valor;
+
     @ManyToOne
     @JoinColumn(name = "cuenta_id")
     private Cuenta cuenta;
+
+    private Integer nCuenta;
 
     private Integer cuentaOrigen;
 

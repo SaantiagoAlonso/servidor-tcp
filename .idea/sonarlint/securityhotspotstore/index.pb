@@ -41,3 +41,15 @@ e
 5src/main/java/co/scastillos/app/dto/SolicitudDto.java,f\b\fbdd10a9c6bedd18e5bd7834739d64752662c09a
 e
 5src/main/java/co/scastillos/app/dto/RespuestaDto.java,a\1\a147ecfda115998be1caa7b460937de0719dd6ce
+o
+?src/main/java/co/scastillos/app/entidades/TransferenciaDto.java,e\a\ea9f96ff36571cb96010cd27605b6ee065ee2ac0
+i
+9src/main/java/co/scastillos/app/dto/TransferenciaDto.java,e\5\e52c1ae3dfa608a40c8167def8d0453ce2c11d4e
+h
+8src/main/java/co/scastillos/app/dto/ConsultarMovDto.java,4\0\4071460a99a70096fb36fb8a4cc26def553b8a8f
+g
+7src/main/java/co/scastillos/app/dto/ConsultaMovDto.java,9\5\95149c458bf06c1bb9cc858bcae643836adec0e6
+f
+6src/main/java/co/scastillos/app/dto/MovimientoDto.java,8\b\8b4a2df10076ddc710325e2d2b957432ef8b2763
+D
+META-INF/MANIFEST.MF,2\e\2e8cf92205ec303e7304888d382cb6a8cf5f56ba

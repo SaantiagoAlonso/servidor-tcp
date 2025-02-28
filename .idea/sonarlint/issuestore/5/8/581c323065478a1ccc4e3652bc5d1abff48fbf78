@@ -1,3 +1,8 @@
 
+~	java:S125"<This block of commented-out lines of code should be removed.(Ÿ‚àè8ñ˜òÄÔ2J$dda4bb0f-663d-448f-af54-2bb85ece7289
+ƒ	java:S1253"<This block of commented-out lines of code should be removed.(‹‘®Œøÿÿÿÿ8ã‡áÆÔ2J$e7ba0829-f2b4-4e4a-88d0-9b954e177133
+ƒ	java:S125<"<This block of commented-out lines of code should be removed.(‹‘®Œøÿÿÿÿ8‹”ğÆÔ2J$e3b74b0a-2970-4468-a463-5415989cdbb5
+½
+java:S6204W"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8æßğÆÔ2J$ec9aa13d-ccc7-481e-9d29-ab88ca33415e
 ˆ
-java:S1128"@Remove this unused import 'co.scastillos.app.entidades.Usuario'.(®í’½ÿÿÿÿÿ8ò¶ƒ²Ó2J$ab64aa20-2057-4c12-b605-3627e72681c3
+java:S1128"@Remove this unused import 'co.scastillos.app.entidades.Usuario'.(®í’½ÿÿÿÿÿ8éßğÆÔ2J$e69988b8-ecb5-482c-9164-9c639936b4b1

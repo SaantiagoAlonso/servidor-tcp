@@ -1,5 +1,6 @@
 package co.scastillos.app.conexion_bd;
 
+import co.scastillos.app.dto.MovimientoDto;
 import co.scastillos.app.entidades.Movimiento;
 import co.scastillos.app.entidades.Usuario;
 import jakarta.persistence.EntityManager;
@@ -7,6 +8,7 @@ import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class RepoMovimiento {
 
@@ -15,7 +17,8 @@ public class RepoMovimiento {
     public void guardar (Movimiento movimiento){
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
-        em.persist(movimiento);
+//        em.persist(movimiento);
+        em.merge(movimiento);
         em.getTransaction().commit();
         em.close();
     }
@@ -44,4 +47,49 @@ public class RepoMovimiento {
         em.getTransaction().commit();
         em.close();
     }
+
+//    public List<Movimiento> listarMovimientosPorCuenta(Integer nCuenta){
+//        EntityManager em = emf.createEntityManager();
+//        List<Movimiento> movimientos = em.createQuery("SELECT m FROM Movimiento m WHERE m.nCuenta =: nCuenta", Movimiento.class)
+//                .setParameter("nCuenta",nCuenta)
+//                .getResultList();
+////        em.close();
+//        return movimientos;
+//    }
+
+//    public List<Movimiento> listarMovimientosPorCuenta(Integer nCuenta) {
+//        EntityManager em = emf.createEntityManager();
+//        List<Movimiento> movimientos = em.createQuery(
+//                        "SELECT m FROM Movimiento m JOIN FETCH m.cuenta WHERE m.nCuenta = :nCuenta", Movimiento.class)
+//                .setParameter("nCuenta", nCuenta)
+//                .getResultList();
+//        em.close(); // Cierra el EntityManager después de obtener los datos
+//        return movimientos;
+//    }
+
+    public List<MovimientoDto> listarMovimientosPorCuenta(Integer nCuenta) {
+        EntityManager em = emf.createEntityManager();
+        try {
+            List<Movimiento> movimientos = em.createQuery(
+                            "SELECT m FROM Movimiento m JOIN FETCH m.cuenta WHERE m.nCuenta = :nCuenta", Movimiento.class)
+                    .setParameter("nCuenta", nCuenta)
+                    .getResultList();
+
+            // Mapear los datos a MovimientoDto
+            return movimientos.stream()
+                    .map(m -> new MovimientoDto(
+                            m.getAccion(),
+                            m.getFecha(),
+                            m.getValor(),
+                            m.getCuentaOrigen(),
+                            m.getCuentaDestino()
+                    ))
+                    .collect(Collectors.toList());
+
+        } finally {
+            em.close();
+        }
+    }
+
+
 }

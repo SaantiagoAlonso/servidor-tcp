@@ -1,3 +1,12 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(Ž½Ž¦ÿÿÿÿÿ8ÌÚÿ–Ò2J$0a5e81f7-bacf-42a5-a8c8-7f11caebabed
-l	java:S106("+Replace this use of System.out by a logger.(Ôç÷G8¹ª·˜Ò2J$b107a2e7-70b7-4d57-99d5-624d6d90408d
+r	java:S106"+Replace this use of System.out by a logger.(Ž½Ž¦ÿÿÿÿÿ8ÌÚÿ–Ò2J$ae0d6703-ffa1-4b06-9108-c4148158da1a
+~	java:S125"<This block of commented-out lines of code should be removed.(³ÊÖô8ÈÐÔžÔ2J$8172b302-8235-4fa4-953f-6f158b1ab83f
+l	java:S106("+Replace this use of System.out by a logger.(Ôç÷G8¹ª·˜Ò2J$012e3140-b54d-4330-968d-2139caf75f0d
+
+java:S1128"ERemove this unused import 'co.scastillos.app.conexion_bd.RepoCuenta'.(ë²¼íýÿÿÿÿ8ÍÐÔžÔ2J$0c6af4ae-6506-4a7b-9b8f-677659daaba7
+‰
+java:S1128"FRemove this unused import 'co.scastillos.app.conexion_bd.RepoUsuario'.(„ˆöÕ8ÍÐÔžÔ2J$f350a412-1cbc-4bbd-badd-024256cf49b7
+‡
+java:S1128"?Remove this unused import 'co.scastillos.app.entidades.Cuenta'.(–ÓÝýÿÿÿÿ8ÎÐÔžÔ2J$0393fe63-4163-468e-9fa7-0f0a53ab7bdd
+ˆ
+java:S1128"@Remove this unused import 'co.scastillos.app.entidades.Usuario'.(®í’½ÿÿÿÿÿ8ÎÐÔžÔ2J$5e49957b-3fc7-4cd7-a002-7b2dcd5f21f3

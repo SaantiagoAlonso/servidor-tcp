@@ -13,7 +13,6 @@ import lombok.NoArgsConstructor;
 public class RecibirDatosDto {
 
     private String tipoBusqueda;
-
     private Integer valor;
 
 }

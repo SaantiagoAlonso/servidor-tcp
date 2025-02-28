@@ -12,7 +12,8 @@ public class RepoUsuario {
     public void guardar(Usuario usuario) {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
-        em.persist(usuario);
+//        em.persist(usuario);
+        em.merge(usuario);
         em.getTransaction().commit();
         em.close();
     }

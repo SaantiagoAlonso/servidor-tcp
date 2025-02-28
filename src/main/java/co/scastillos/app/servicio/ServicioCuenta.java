@@ -1,18 +1,24 @@
 package co.scastillos.app.servicio;
 
 import co.scastillos.app.conexion_bd.RepoCuenta;
-import co.scastillos.app.dto.RecibirDatosDto;
-import co.scastillos.app.dto.RespuestaSaldoDto;
+import co.scastillos.app.conexion_bd.RepoMovimiento;
+import co.scastillos.app.dto.*;
 import co.scastillos.app.entidades.Cuenta;
+import co.scastillos.app.entidades.Movimiento;
+import jakarta.transaction.Transactional;
 
+import java.util.Date;
+import java.util.List;
 import java.util.Optional;
 
 public class ServicioCuenta {
 
     private RepoCuenta repoCuenta;
+    private RepoMovimiento repoMovimiento;
 
     public ServicioCuenta() {
         this.repoCuenta = new RepoCuenta();
+        this.repoMovimiento = new RepoMovimiento();
     }
 
     public Double consultarSaldoPorCedula(Integer cedula) {
@@ -54,20 +60,52 @@ public class ServicioCuenta {
 //    AL FINALIZAR LA TRANSACION SE DEBE GUARDAR EL MOVIMIENTO TANTO DEL REMITENTE COMO EL DESTINATARIO
 //    SE DEBE PERSISTIR LA INFOMACION
 
-//    public void realizarTransaccion(){
-//        Double saldoRemitente = repoCuenta.obtenerSaldoPorNumeroCuenta(2345);
-//        if(saldoRemitente > saldoTransferir){
-//
-//        }
-//    }
+    @Transactional
+    public String realizarTransaccion(TransferenciaDto trasferencia){
+        Cuenta cuenta = repoCuenta.buscarPorNCuenta(trasferencia.getNCuentaRemitente()).orElse(null);
 
-//    public void RealizarTransaccion(){
-//        Cuenta cuenta = repoCuenta.buscarPorNCuenta(2345)
-//                .orElseThrow(() -> new RuntimeException("mensaje"));
-//
-//        if(cuenta.getSaldo() > ;
-//    }
+        if(cuenta.getSaldo() > trasferencia.getValor()){
+            Cuenta cuentaDestino = repoCuenta.buscarPorNCuenta(trasferencia.getNCuentaDestino()).orElse(null);
+            cuenta.setSaldo(cuenta.getSaldo() - trasferencia.getValor());
+            cuentaDestino.setSaldo(cuentaDestino.getSaldo() + trasferencia.getValor());
+//          MOVIMIENTO DE QUIEN REALIZA LA TRANSACCION
+            Movimiento movimientoRemitente = Movimiento.builder()
+                    .fecha(new Date())
+                    .cuentaOrigen(cuenta.getNCuenta())
+                    .cuentaDestino(cuentaDestino.getNCuenta())
+                    .accion("transferencia")
+                    .cuenta(cuenta)
+                    .nCuenta(cuenta.getNCuenta())
+                    .valor(trasferencia.getValor())
+                    .build();
+            repoMovimiento.guardar(movimientoRemitente);
+//            movimineto de quien recibe la transaccion
+            Movimiento movimientoDestinatario = Movimiento.builder()
+                    .fecha(new Date())
+                    .cuentaOrigen(cuenta.getNCuenta())
+                    .cuentaDestino(null)
+                    .accion("transferencia")
+                    .cuenta(cuentaDestino)
+                    .nCuenta(cuentaDestino.getNCuenta())
+                    .valor(trasferencia.getValor())
+                    .build();
+            repoMovimiento.guardar(movimientoDestinatario);
+            cuenta.getMovimientos().add(movimientoRemitente);
+            cuentaDestino.getMovimientos().add(movimientoRemitente);
+            repoCuenta.guardar(cuenta);
+            repoCuenta.guardar(cuentaDestino);
 
+            return "transferencia realizada";
+        }
+        return "no se pudo completar la transferencia";
+    }
+
+
+    public ConsultaMovDto consultarMovimientos(ConsultaMovDto consutaMovDto){
+        List<MovimientoDto> movimientos = repoMovimiento.listarMovimientosPorCuenta(consutaMovDto.getNCuenta());
+        System.out.println(movimientos.toString());
+        return new ConsultaMovDto(consutaMovDto.getNCuenta(),movimientos,"consulta Exitosa");
+    }
 
 }
 

@@ -15,7 +15,8 @@ public class RepoCuenta {
     public void guardar(Cuenta cuenta) {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
-        em.persist(cuenta);
+//        em.persist(cuenta);
+        em.merge(cuenta);
         em.getTransaction().commit();
         em.close();
     }
@@ -44,24 +45,6 @@ public class RepoCuenta {
         em.getTransaction().commit();
         em.close();
     }
-
-//    public Double obtenerSaldoPorNumeroCuenta(Integer numeroCuenta) {
-//        EntityManager em = emf.createEntityManager();
-//        Double saldo = em.createQuery("SELECT c.saldo FROM Cuenta c WHERE c.NCuenta = :numeroCuenta", Double.class)
-//                .setParameter("numeroCuenta", numeroCuenta)
-//                .getSingleResult();
-//        em.close();
-//        return saldo;
-//    }
-//
-//    public Double obtenerSaldoPorCedulaUsuario(Integer cedula) {
-//        EntityManager em = emf.createEntityManager();
-//        Double saldo = em.createQuery("SELECT c.saldo FROM Cuenta c WHERE c.usuario.cedula = :cedula", Double.class)
-//                .setParameter("cedula", cedula)
-//                .getSingleResult();
-//        em.close();
-//        return saldo;
-//    }
 
 
     public Double obtenerSaldoPorNumeroCuenta(Integer numeroCuenta) {
@@ -106,27 +89,22 @@ public class RepoCuenta {
     public Optional<Cuenta> buscarPorNCuenta(Integer nCuenta){
         EntityManager em = emf.createEntityManager();
         String query = "SELECT c FROM Cuenta c WHERE c.nCuenta = :nCuenta";
-        return em.createQuery(query, Cuenta.class)
+        Optional<Cuenta> cuenta = em.createQuery(query, Cuenta.class)
                 .setParameter("nCuenta",nCuenta)
                 .getResultStream()
                 .findFirst();
+        em.close();
+        return cuenta;
     }
     public Optional<Cuenta> buscarPorCedula(Integer cedula){
         EntityManager em = emf.createEntityManager();
         String query = "SELECT c FROM Cuenta c WHERE c.usuario.cedula = :cedula";
-        return em.createQuery(query, Cuenta.class)
+        Optional<Cuenta> cuenta = em.createQuery(query, Cuenta.class)
                 .setParameter("cedula",cedula)
                 .getResultStream()
                 .findFirst();
+        em.close();
+        return cuenta;
     }
-
-//    public Cuenta buscarPorCedula(Integer cedula) {
-//        EntityManager em = emf.createEntityManager();
-//        Cuenta cuenta = em.find(Cuenta.class, cedula);
-//        em.close();
-//        return cuenta;
-//    }
-
-
 
 }

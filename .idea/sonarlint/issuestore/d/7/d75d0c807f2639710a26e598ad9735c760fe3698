@@ -1,21 +1,18 @@
 
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(¨ìñ–ıÿÿÿÿ8¨ƒ´Ó2J$e7455342-8db3-41bd-81ee-70c41d12e66f
-r	java:S106^"+Replace this use of System.out by a logger.(¤‰´Îşÿÿÿÿ8Áƒ´Ó2J$66d34938-5751-469a-9f54-14b334f5a393
-m	java:S106b"+Replace this use of System.out by a logger.(­§ù¥8Âƒ´Ó2J$d74f61b5-21a7-485e-b044-407d9d7b05f0
-~	java:S125e"<This block of commented-out lines of code should be removed.(ƒÛƒà8Âƒ´Ó2J$46406da9-2c5a-45b4-a325-d5b54b618510
-r	java:S106n"+Replace this use of System.out by a logger.(Ò÷Ş§şÿÿÿÿ8Ãƒ´Ó2J$110efce6-1922-4346-b816-5c0790858ff7
-”
-java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ğà¦Çúÿÿÿÿ8Éƒ´Ó2J$c9925c6d-963a-4dd0-b41e-89643338704d
-„	java:S125’"<This block of commented-out lines of code should be removed.(¸´¿ìÿÿÿÿÿ8­â‘µÓ2J$1cf918e8-ef9e-4f30-a8ab-b0634919c6dc
-„	java:S125œ"<This block of commented-out lines of code should be removed.(ºìíôûÿÿÿÿ8ïÏ·Ó2J$91e56c71-dc34-4e03-956c-ce1544108424
-~	java:S125Ÿ"<This block of commented-out lines of code should be removed.(Ø¥é&8ÅŒ’µÓ2J$164806d9-b6d5-4a0b-8508-1109373bce1f
-n	java:S106°"+Replace this use of System.out by a logger.(Öà¾Ê8Ëƒ´Ó2J$20667f53-8509-4f26-8420-62c1681f0b19
-s	java:S106³"+Replace this use of System.out by a logger.(§´Òùÿÿÿÿ8Ëƒ´Ó2J$5df99049-1a3d-4a5b-8d09-401ef01debd0
-v
-java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8°´Î·Ó2J$64f2dcc8-8810-4421-b3b7-d22506bf4de0
-y
-java:S1128"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8°´Î·Ó2J$7c3e66dc-b0e8-424e-85a4-111bec6c3816
-s
-java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8°´Î·Ó2J$375dd917-9487-45b1-818a-2e6ff750ddfb
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(¨ìñ–ıÿÿÿÿ8Š®ËÅÔ2J$f405b061-0792-4972-b187-0b57441641f7
+r	java:S106["+Replace this use of System.out by a logger.(¤‰´Îşÿÿÿÿ8£®ËÅÔ2J$27ad0674-92ff-46cc-b4c3-47bcce5b98be
+m	java:S106_"+Replace this use of System.out by a logger.(­§ù¥8¤®ËÅÔ2J$08e6a6a2-87dd-4d0f-9975-0a1a5b9a1893
+~	java:S125b"<This block of commented-out lines of code should be removed.(ƒÛƒà8¤®ËÅÔ2J$23a35383-c83f-4bc1-9ec1-d80f55414c0f
+r	java:S106k"+Replace this use of System.out by a logger.(Ò÷Ş§şÿÿÿÿ8¤®ËÅÔ2J$fa398560-9e27-4db2-8571-85cdf0d66887
+„	java:S125"<This block of commented-out lines of code should be removed.(¸´¿ìÿÿÿÿÿ8«®ËÅÔ2J$19352b09-f3f4-436a-83dd-006e251314b0
+„	java:S125™"<This block of commented-out lines of code should be removed.(ºìíôûÿÿÿÿ8¬®ËÅÔ2J$d03783ed-33e0-43d7-8942-0f59b926aef4
+n	java:S106´"+Replace this use of System.out by a logger.(Öà¾Ê8¯®ËÅÔ2J$35588157-4752-4027-830e-cf6bfdc8a067
+s	java:S106·"+Replace this use of System.out by a logger.(§´Òùÿÿÿÿ8¯®ËÅÔ2J$c9b099c0-cb6f-41cd-89b7-3a83d845cee3
+P
+java:S1128	"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8ØúŠÑÔ2
+S
+java:S1128"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8ØúŠÑÔ2
+M
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8ØúŠÑÔ2
 ~
-java:S1144u"6Remove this unused private "procesarSolicitud" method.(ÙÌœ®ıÿÿÿÿ8Íƒ´Ó2J$2ed8bde9-c44c-4893-a0f2-23baca9ad11b
+java:S1144r"6Remove this unused private "procesarSolicitud" method.(ÙÌœ®ıÿÿÿÿ8°®ËÅÔ2J$be9ee062-c053-412c-83f7-43666787a51c

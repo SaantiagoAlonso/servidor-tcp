@@ -1,10 +1,7 @@
 package co.scastillos.app.servidor;
 
 import co.scastillos.app.configuracion.SocketManager;
-import co.scastillos.app.dto.RecibirDatosDto;
-import co.scastillos.app.dto.RespuestaDto;
-import co.scastillos.app.dto.RespuestaSaldoDto;
-import co.scastillos.app.dto.SolicitudDto;
+import co.scastillos.app.dto.*;
 import co.scastillos.app.servicio.ServicioCuenta;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -155,12 +152,19 @@ public class ManejadorCliente implements Runnable {
                 RespuestaSaldoDto respuesta = servicioCuenta.consultarCuenta(datosConsulta);
 //                String contenido = objectMapper.writeValueAsString(respuesta);
                 return new RespuestaDto("ok", respuesta);
-//            case "transferir":
-//                servicioCuenta.transferir(datos.getContenido());
-//                break;
-//
-//            case "retirar":
-//                servicioCuenta.retirar(datos.getContenido());
+            case "transferencia":
+                String contenido = objectMapper.writeValueAsString(datos.getContenido());
+                TransferenciaDto transferenciaDto = objectMapper.readValue(contenido,TransferenciaDto.class);
+                String res =  servicioCuenta.realizarTransaccion(transferenciaDto);
+                return new RespuestaDto("ok",res);
+
+            case "movimientos":
+                String contenid = objectMapper.writeValueAsString(datos.getContenido());
+                ConsultaMovDto consMov = objectMapper.readValue(contenid,ConsultaMovDto.class);
+                ConsultaMovDto consulta = servicioCuenta.consultarMovimientos(consMov);
+                return new RespuestaDto("ok",consulta);
+
+
 //            case  ""
             default:
                 return new RespuestaDto("error", "Acción no reconocida");
