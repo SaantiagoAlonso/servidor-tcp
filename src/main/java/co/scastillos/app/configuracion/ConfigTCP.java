@@ -13,12 +13,10 @@ public class ConfigTCP {
 
     public void conectar() {
         System.out.println("Conectando al servidor TCP en " + host + ":" + puerto);
-        // Lógica de conexión TCP
     }
 
     public void desconectar() {
         System.out.println("Desconectando del servidor TCP");
-        // Lógica de desconexión
     }
 
     public int getPuerto() {

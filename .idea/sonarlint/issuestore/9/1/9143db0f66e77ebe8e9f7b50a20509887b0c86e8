@@ -1,6 +1,4 @@
 
-~	java:S125"<This block of commented-out lines of code should be removed.(„õ¼š8ÿíšÔ2J$5819cf34-c4dd-4aa8-887c-22c4c99d987d
-r	java:S106>"+Replace this use of System.out by a logger.(§ù¶ëþÿÿÿÿ8§ Á¸Ó2J$e6be9b9f-3b5b-42e7-a727-2956dde227fc
-r	java:S106R"+Replace this use of System.out by a logger.(§ù¶ëþÿÿÿÿ8à’ä¸Ó2J$97967864-d85a-4625-83cf-848dc98788ca
-
-java:S1128">Remove this unused import 'jakarta.transaction.Transactional'.(ß–Ê³8® Á¸Ó2J$b1cd5ebe-44fe-4b98-a678-b0b639d0ed97
+~	java:S125"<This block of commented-out lines of code should be removed.(„õ¼š8ÿíšÔ2J$a3756c55-b8fa-47b9-b62f-9de3b573b697
+r	java:S106="+Replace this use of System.out by a logger.(§ù¶ëþÿÿÿÿ8§ Á¸Ó2J$8ef8d5aa-5231-47b4-9ee2-8256974e183e
+r	java:S106Q"+Replace this use of System.out by a logger.(§ù¶ëþÿÿÿÿ8à’ä¸Ó2J$36355af5-909c-4b14-8498-c2bc0580cfcd

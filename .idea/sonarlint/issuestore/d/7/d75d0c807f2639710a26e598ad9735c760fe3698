@@ -1,18 +1,9 @@
 
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(¨ìñ–ıÿÿÿÿ8Š®ËÅÔ2J$f405b061-0792-4972-b187-0b57441641f7
-r	java:S106["+Replace this use of System.out by a logger.(¤‰´Îşÿÿÿÿ8£®ËÅÔ2J$27ad0674-92ff-46cc-b4c3-47bcce5b98be
-m	java:S106_"+Replace this use of System.out by a logger.(­§ù¥8¤®ËÅÔ2J$08e6a6a2-87dd-4d0f-9975-0a1a5b9a1893
-~	java:S125b"<This block of commented-out lines of code should be removed.(ƒÛƒà8¤®ËÅÔ2J$23a35383-c83f-4bc1-9ec1-d80f55414c0f
-r	java:S106k"+Replace this use of System.out by a logger.(Ò÷Ş§şÿÿÿÿ8¤®ËÅÔ2J$fa398560-9e27-4db2-8571-85cdf0d66887
-„	java:S125"<This block of commented-out lines of code should be removed.(¸´¿ìÿÿÿÿÿ8«®ËÅÔ2J$19352b09-f3f4-436a-83dd-006e251314b0
-„	java:S125™"<This block of commented-out lines of code should be removed.(ºìíôûÿÿÿÿ8¬®ËÅÔ2J$d03783ed-33e0-43d7-8942-0f59b926aef4
-n	java:S106´"+Replace this use of System.out by a logger.(Öà¾Ê8¯®ËÅÔ2J$35588157-4752-4027-830e-cf6bfdc8a067
-s	java:S106·"+Replace this use of System.out by a logger.(§´Òùÿÿÿÿ8¯®ËÅÔ2J$c9b099c0-cb6f-41cd-89b7-3a83d845cee3
+r	java:S106"+Replace this use of System.out by a logger.(¤‰´Îşÿÿÿÿ8ó›»ÜÔ2J$27fb39fd-65a7-4d99-8811-e48065f76fb6
+m	java:S106 "+Replace this use of System.out by a logger.(­§ù¥8ô›»ÜÔ2J$cfd0aa26-5405-4dea-bb78-d1edc3732928
+r	java:S106)"+Replace this use of System.out by a logger.(Ò÷Ş§şÿÿÿÿ8ö›»ÜÔ2J$8cd18f3c-f220-426c-b272-b946313a493c
+]	java:S125+"<This block of commented-out lines of code should be removed.(½Àµ±úÿÿÿÿ8œ›ÅïÔ2
+m	java:S106N"+Replace this use of System.out by a logger.(Öà¾Ê8ş›»ÜÔ2J$2d0ed7b2-7fc2-438d-adc2-c16d3290f1d5
+r	java:S106Q"+Replace this use of System.out by a logger.(§´Òùÿÿÿÿ8ş›»ÜÔ2J$9ba687d2-1695-49bf-a871-8024efe3bdf9
 P
-java:S1128	"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8ØúŠÑÔ2
-S
-java:S1128"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8ØúŠÑÔ2
-M
-java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8ØúŠÑÔ2
-~
-java:S1144r"6Remove this unused private "procesarSolicitud" method.(ÙÌœ®ıÿÿÿÿ8°®ËÅÔ2J$be9ee062-c053-412c-83f7-43666787a51c
+java:S1144J"3Remove this unused private "cerrarConexion" method.(äçË¶8©›ÅïÔ2

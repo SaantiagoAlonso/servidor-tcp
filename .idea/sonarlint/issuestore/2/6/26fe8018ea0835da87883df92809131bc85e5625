@@ -1,8 +1,6 @@
 
-“
-java:S2259F"KA "NullPointerException" could be thrown; "cuentaDestino" is nullable here.(•›¿›ûÿÿÿÿ8™Ö‘ÆÔ2J$327276bf-4b41-4c8f-812c-1587657e16f2
 Œ
-java:S2259C"DA "NullPointerException" could be thrown; "cuenta" is nullable here.(èèæîýÿÿÿÿ8šÖ‘ÆÔ2J$15d3d354-0041-441b-8d44-4a7a91c33528
-~	java:S125""<This block of commented-out lines of code should be removed.(˜ëÊ8Ÿ¦ëÅÔ2J$1e3bdebc-7e35-4b75-9e0e-8858418a68a6
-~	java:S125*"<This block of commented-out lines of code should be removed.(˜ëÊ8¢¦ëÅÔ2J$c6abba8d-6c35-4e49-847a-d9752bce061c
-m	java:S106j"+Replace this use of System.out by a logger.(þ×ó—8¬¦ëÅÔ2J$80a5c17d-0764-4105-9345-ebc20b1fa00a
+java:S22596"DA "NullPointerException" could be thrown; "cuenta" is nullable here.(èèæîýÿÿÿÿ8šÖ‘ÆÔ2J$2bb41ca4-9184-4eba-ad74-db88d72ab04c
+“
+java:S22599"KA "NullPointerException" could be thrown; "cuentaDestino" is nullable here.(•›¿›ûÿÿÿÿ8™Ö‘ÆÔ2J$a0931c2e-f20d-4279-97db-b8702e607014
+m	java:S106^"+Replace this use of System.out by a logger.(þ×ó—8¬¦ëÅÔ2J$9515d9cb-a552-4918-b92e-3160aeb148c5

@@ -4,7 +4,6 @@ import co.scastillos.app.entidades.Cuenta;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
-import jakarta.transaction.Transactional;
 
 import java.util.List;
 import java.util.Optional;
@@ -56,7 +55,7 @@ public class RepoCuenta {
                     .getResultList();
 
             if (!resultados.isEmpty()) {
-                saldo = resultados.get(0); // Tomar el primer resultado si existe
+                saldo = resultados.get(0);
             }
         } catch (Exception e) {
             System.out.println("Error al buscar el saldo: " + e.getMessage());
@@ -76,7 +75,7 @@ public class RepoCuenta {
                     .getResultList();
 
             if (!resultados.isEmpty()) {
-                saldo = resultados.get(0); // Tomar el primer resultado si existe
+                saldo = resultados.get(0);
             }
         } catch (Exception e) {
             System.out.println("Error al buscar el saldo: " + e.getMessage());

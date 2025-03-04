@@ -1,12 +1,6 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(Ž½Ž¦ÿÿÿÿÿ8ÌÚÿ–Ò2J$ae0d6703-ffa1-4b06-9108-c4148158da1a
-~	java:S125"<This block of commented-out lines of code should be removed.(³ÊÖô8ÈÐÔžÔ2J$8172b302-8235-4fa4-953f-6f158b1ab83f
-l	java:S106("+Replace this use of System.out by a logger.(Ôç÷G8¹ª·˜Ò2J$012e3140-b54d-4330-968d-2139caf75f0d
-
-java:S1128"ERemove this unused import 'co.scastillos.app.conexion_bd.RepoCuenta'.(ë²¼íýÿÿÿÿ8ÍÐÔžÔ2J$0c6af4ae-6506-4a7b-9b8f-677659daaba7
-‰
-java:S1128"FRemove this unused import 'co.scastillos.app.conexion_bd.RepoUsuario'.(„ˆöÕ8ÍÐÔžÔ2J$f350a412-1cbc-4bbd-badd-024256cf49b7
-‡
-java:S1128"?Remove this unused import 'co.scastillos.app.entidades.Cuenta'.(–ÓÝýÿÿÿÿ8ÎÐÔžÔ2J$0393fe63-4163-468e-9fa7-0f0a53ab7bdd
-ˆ
-java:S1128"@Remove this unused import 'co.scastillos.app.entidades.Usuario'.(®í’½ÿÿÿÿÿ8ÎÐÔžÔ2J$5e49957b-3fc7-4cd7-a002-7b2dcd5f21f3
+¶
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(‚á€Îþÿÿÿÿ8ç•ÙÚÔ2J$38a72b90-2768-4338-9662-83e3d0b427eb
+r	java:S106"+Replace this use of System.out by a logger.(Ž½Ž¦ÿÿÿÿÿ8ÌÚÿ–Ò2J$87ff0e0e-7742-4011-9fff-d6ff679a65fd
+m	java:S106%"+Replace this use of System.out by a logger.(‹ÈåÌ8¹ª·˜Ò2J$7157d5c7-1261-430d-ab16-b87bead2829c
+~	java:S125$"<This block of commented-out lines of code should be removed.(ðàð£8é•ÙÚÔ2J$2816ccae-5a74-4d95-8639-2316ce1796d9

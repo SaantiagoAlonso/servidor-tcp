@@ -1,7 +1,5 @@
 package co.scastillos.app.servidor;
 
-
-
 import co.scastillos.app.configuracion.ConfigTCP;
 
 import java.io.IOException;

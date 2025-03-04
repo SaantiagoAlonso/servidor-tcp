@@ -2,7 +2,6 @@ package co.scastillos.app.conexion_bd;
 
 import co.scastillos.app.dto.MovimientoDto;
 import co.scastillos.app.entidades.Movimiento;
-import co.scastillos.app.entidades.Usuario;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
@@ -48,24 +47,6 @@ public class RepoMovimiento {
         em.close();
     }
 
-//    public List<Movimiento> listarMovimientosPorCuenta(Integer nCuenta){
-//        EntityManager em = emf.createEntityManager();
-//        List<Movimiento> movimientos = em.createQuery("SELECT m FROM Movimiento m WHERE m.nCuenta =: nCuenta", Movimiento.class)
-//                .setParameter("nCuenta",nCuenta)
-//                .getResultList();
-////        em.close();
-//        return movimientos;
-//    }
-
-//    public List<Movimiento> listarMovimientosPorCuenta(Integer nCuenta) {
-//        EntityManager em = emf.createEntityManager();
-//        List<Movimiento> movimientos = em.createQuery(
-//                        "SELECT m FROM Movimiento m JOIN FETCH m.cuenta WHERE m.nCuenta = :nCuenta", Movimiento.class)
-//                .setParameter("nCuenta", nCuenta)
-//                .getResultList();
-//        em.close(); // Cierra el EntityManager después de obtener los datos
-//        return movimientos;
-//    }
 
     public List<MovimientoDto> listarMovimientosPorCuenta(Integer nCuenta) {
         EntityManager em = emf.createEntityManager();
@@ -75,7 +56,6 @@ public class RepoMovimiento {
                     .setParameter("nCuenta", nCuenta)
                     .getResultList();
 
-            // Mapear los datos a MovimientoDto
             return movimientos.stream()
                     .map(m -> new MovimientoDto(
                             m.getAccion(),
