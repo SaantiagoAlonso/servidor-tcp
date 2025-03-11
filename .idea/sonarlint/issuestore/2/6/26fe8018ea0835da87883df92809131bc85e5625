@@ -1,6 +1,6 @@
 
-Œ
-java:S22596"DA "NullPointerException" could be thrown; "cuenta" is nullable here.(èèæîýÿÿÿÿ8šÖ‘ÆÔ2J$2bb41ca4-9184-4eba-ad74-db88d72ab04c
 “
-java:S22599"KA "NullPointerException" could be thrown; "cuentaDestino" is nullable here.(•›¿›ûÿÿÿÿ8™Ö‘ÆÔ2J$a0931c2e-f20d-4279-97db-b8702e607014
-m	java:S106^"+Replace this use of System.out by a logger.(þ×ó—8¬¦ëÅÔ2J$9515d9cb-a552-4918-b92e-3160aeb148c5
+java:S22599"KA "NullPointerException" could be thrown; "cuentaDestino" is nullable here.(•›¿›ûÿÿÿÿ8™Ö‘ÆÔ2J$be75df5b-983b-4f5a-814b-58cd18e058a7
+Œ
+java:S22596"DA "NullPointerException" could be thrown; "cuenta" is nullable here.(èèæîýÿÿÿÿ8šÖ‘ÆÔ2J$4f137200-c116-4be2-b1f9-564a7b54f5d3
+m	java:S106^"+Replace this use of System.out by a logger.(þ×ó—8¬¦ëÅÔ2J$2b149ba5-6348-4725-9a28-ddf920cd4b12

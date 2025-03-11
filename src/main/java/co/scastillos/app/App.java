@@ -18,24 +18,24 @@ public class App {
             RepoCuenta repoCuenta = new RepoCuenta();
 
             // Crear usuario
-            Usuario usuario = Usuario.builder()
-                    .cedula(123456)
-                    .name("juan")
-                    .build();
-            repoUsuario.guardar(usuario);
-
-            // Crear cuenta
-            Cuenta cuenta = Cuenta.builder()
-                    .nCuenta(1003)
-                    .saldo(5000.0)
-                    .usuario(usuario)
-                    .build();
-
-            repoCuenta.guardar(cuenta);
+//            Usuario usuario = Usuario.builder()
+//                    .cedula(123)
+//                    .name("pepe")
+//                    .build();
+//            repoUsuario.guardar(usuario);
+//
+//            // Crear cuenta
+//            Cuenta cuenta = Cuenta.builder()
+//                    .nCuenta(1003)
+//                    .saldo(5000.0)
+//                    .usuario(usuario)
+//                    .build();
+//
+//            repoCuenta.guardar(cuenta);
 
 //            Server.main();
             System.out.println("Datos insertados.");
-            Servidor servidor = new Servidor(5000, "localhost");
+            Servidor servidor = new Servidor(5001, "localhost");
             servidor.iniciar();
 
 

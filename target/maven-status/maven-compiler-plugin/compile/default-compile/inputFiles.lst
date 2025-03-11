@@ -1,6 +1,7 @@
 C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\App.java
 C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\conexion_bd\RepoCuenta.java
 C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\conexion_bd\RepoMovimiento.java
+C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\conexion_bd\RepoSesion.java
 C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\conexion_bd\RepoUsuario.java
 C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\configuracion\ConfigTCP.java
 C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\configuracion\SocketManager.java
@@ -13,7 +14,9 @@ C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scast
 C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\dto\TransferenciaDto.java
 C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\entidades\Cuenta.java
 C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\entidades\Movimiento.java
+C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\entidades\Sesion.java
 C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\entidades\Usuario.java
 C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\servicio\ServicioCuenta.java
+C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\servicio\ServicioSesion.java
 C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\servidor\ManejadorCliente.java
 C:\Users\santi\OneDrive\Escritorio\ClienteServidor\server\src\main\java\co\scastillos\app\servidor\Servidor.java

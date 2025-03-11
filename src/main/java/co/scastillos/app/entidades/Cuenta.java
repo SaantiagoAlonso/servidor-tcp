@@ -21,6 +21,7 @@ public class Cuenta {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(unique = true)
     private Integer nCuenta;
 
     private Double saldo;

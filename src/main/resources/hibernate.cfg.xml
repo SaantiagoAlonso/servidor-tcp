@@ -6,11 +6,13 @@
         <property name="hibernate.connection.password">123456</property>
 
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
-        <property name="hibernate.hbm2ddl.auto">validate</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
         <property name="hibernate.show_sql">true</property>
 
         <mapping class="co.scastillos.app.entidades.Usuario"/>
         <mapping class="co.scastillos.app.entidades.Cuenta"/>
         <mapping class="co.scastillos.app.entidades.Movimiento"/>
+        <mapping class="co.scastillos.app.entidades.Sesion"/>
+
     </session-factory>
 </hibernate-configuration>

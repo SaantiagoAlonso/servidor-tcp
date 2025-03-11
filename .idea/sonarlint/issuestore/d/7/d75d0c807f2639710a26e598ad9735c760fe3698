@@ -1,9 +1,9 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(¤‰´Îþÿÿÿÿ8ó›»ÜÔ2J$27fb39fd-65a7-4d99-8811-e48065f76fb6
-m	java:S106 "+Replace this use of System.out by a logger.(­§ù¥8ô›»ÜÔ2J$cfd0aa26-5405-4dea-bb78-d1edc3732928
-r	java:S106)"+Replace this use of System.out by a logger.(Ò÷Þ§þÿÿÿÿ8ö›»ÜÔ2J$8cd18f3c-f220-426c-b272-b946313a493c
-]	java:S125+"<This block of commented-out lines of code should be removed.(½Àµ±úÿÿÿÿ8œ›ÅïÔ2
-m	java:S106N"+Replace this use of System.out by a logger.(Öà¾Ê8þ›»ÜÔ2J$2d0ed7b2-7fc2-438d-adc2-c16d3290f1d5
-r	java:S106Q"+Replace this use of System.out by a logger.(§´Òùÿÿÿÿ8þ›»ÜÔ2J$9ba687d2-1695-49bf-a871-8024efe3bdf9
-P
-java:S1144J"3Remove this unused private "cerrarConexion" method.(äçË¶8©›ÅïÔ2
+r	java:S106"+Replace this use of System.out by a logger.(¤‰´Îþÿÿÿÿ8ó›»ÜÔ2J$4a01b557-a935-438e-a39a-4b825874e12a
+m	java:S106 "+Replace this use of System.out by a logger.(­§ù¥8ô›»ÜÔ2J$719770b8-f71c-4dcf-9fa4-e35dec85ca1f
+r	java:S106)"+Replace this use of System.out by a logger.(Ò÷Þ§þÿÿÿÿ8ö›»ÜÔ2J$d695cefc-c5cf-4abb-8c9d-8f51957d8d95
+ƒ	java:S125+"<This block of commented-out lines of code should be removed.(½Àµ±úÿÿÿÿ8œ›ÅïÔ2J$210ff2f1-ceec-4a0c-8483-fffb3494a2d3
+m	java:S106N"+Replace this use of System.out by a logger.(Öà¾Ê8þ›»ÜÔ2J$28ced6fb-2fd4-44b7-9296-f2a10b4ca6f2
+r	java:S106Q"+Replace this use of System.out by a logger.(§´Òùÿÿÿÿ8þ›»ÜÔ2J$3829d3dc-57ea-42e3-abe4-17b1cd666410
+v
+java:S1144J"3Remove this unused private "cerrarConexion" method.(äçË¶8©›ÅïÔ2J$51a3062c-5ce2-4ce0-97e6-8947c8394a2f

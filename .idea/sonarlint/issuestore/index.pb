@@ -43,3 +43,9 @@ f
 6src/main/java/co/scastillos/app/dto/MovimientoDto.java,8\b\8b4a2df10076ddc710325e2d2b957432ef8b2763
 D
 META-INF/MANIFEST.MF,2\e\2e8cf92205ec303e7304888d382cb6a8cf5f56ba
+e
+5src/main/java/co/scastillos/app/entidades/Sesion.java,f\a\faabed76477d92e0d97cabba86b5c96a1314ffed
+k
+;src/main/java/co/scastillos/app/conexion_bd/RepoSesion.java,9\3\93cdeb78c5664a3f44f06a27cf593135598272e3
+l
+<src/main/java/co/scastillos/app/servicio/ServicioSesion.java,c\6\c6d0eb722a2271512b64d85e6865aaf805e1bcfd

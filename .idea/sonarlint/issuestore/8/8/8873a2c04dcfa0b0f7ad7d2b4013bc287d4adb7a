@@ -1,6 +1,19 @@
 
+†
+java:S1854">Remove this useless assignment to local variable "repoCuenta".(àÈ»†ýÿÿÿÿ8ÔÿÿñÖ2J$fcfe33a4-5885-433b-89c3-9798cc013618
+‡
+java:S1854"?Remove this useless assignment to local variable "repoUsuario".(ˆÐóµüÿÿÿÿ8ÕÿÿñÖ2J$2226c9bb-8443-4665-8cae-3f56580cc4af
 ¶
-java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(‚á€Îþÿÿÿÿ8ç•ÙÚÔ2J$38a72b90-2768-4338-9662-83e3d0b427eb
-r	java:S106"+Replace this use of System.out by a logger.(Ž½Ž¦ÿÿÿÿÿ8ÌÚÿ–Ò2J$87ff0e0e-7742-4011-9fff-d6ff679a65fd
-m	java:S106%"+Replace this use of System.out by a logger.(‹ÈåÌ8¹ª·˜Ò2J$7157d5c7-1261-430d-ab16-b87bead2829c
-~	java:S125$"<This block of commented-out lines of code should be removed.(ðàð£8é•ÙÚÔ2J$2816ccae-5a74-4d95-8639-2316ce1796d9
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(‚á€Îþÿÿÿÿ8ç•ÙÚÔ2J$6d02b5a8-adc7-44f7-b129-00995eb5c1d1
+r	java:S106"+Replace this use of System.out by a logger.(Ž½Ž¦ÿÿÿÿÿ8ÌÚÿ–Ò2J$6e58277e-e969-4582-89ca-82a625c5feb1
+x
+java:S1481"0Remove this unused "repoUsuario" local variable.(ˆÐóµüÿÿÿÿ8ÛÿÿñÖ2J$1d88f6c0-5262-4955-9052-2b20ba29b90a
+w
+java:S1481"/Remove this unused "repoCuenta" local variable.(àÈ»†ýÿÿÿÿ8ÜÿÿñÖ2J$1336b569-b1e0-43b7-99d8-d07e0a9e3d04
+m	java:S106%"+Replace this use of System.out by a logger.(‹ÈåÌ8¹ª·˜Ò2J$f10302cd-d728-46eb-bb7f-5e99f621df27
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(Â™†úÿÿÿÿ8ÞÿÿñÖ2J$a9fb1e9b-19d0-4703-960e-903af000b9ab
+~	java:S125$"<This block of commented-out lines of code should be removed.(ðàð£8é•ÙÚÔ2J$1711aaaa-1808-4ab1-8320-612213e12e58
+‡
+java:S1128"?Remove this unused import 'co.scastillos.app.entidades.Cuenta'.(–ÓÝýÿÿÿÿ8àÿÿñÖ2J$23086f07-3acc-4bc9-b459-285a7f76688d
+ˆ
+java:S1128"@Remove this unused import 'co.scastillos.app.entidades.Usuario'.(®í’½ÿÿÿÿÿ8áÿÿñÖ2J$1f676697-1aad-4168-8836-62d9492c2010
